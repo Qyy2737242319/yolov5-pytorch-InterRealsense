@@ -1,0 +1,26 @@
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>000092.jpg</filename>
+	<path>C:\Users\ASUS\Desktop\数据集\JPEGImages\000092.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4032</width>
+		<height>3024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>arrow</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1381</xmin>
+			<ymin>2038</ymin>
+			<xmax>1956</xmax>
+			<ymax>2800</ymax>
+		</bndbox>
+	</object>
+</annotation>

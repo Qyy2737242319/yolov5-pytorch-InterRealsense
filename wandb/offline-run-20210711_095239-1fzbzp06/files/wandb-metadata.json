@@ -1,0 +1,24 @@
+{
+    "os": "Windows-10-10.0.18362-SP0",
+    "python": "3.9.2",
+    "heartbeatAt": "2021-07-11T01:52:40.932367",
+    "startedAt": "2021-07-11T01:52:39.612791",
+    "docker": null,
+    "gpu": "GeForce MX150",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "f:\\Program Files (x86)\\yolo v5\\train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/ultralytics/yolov5.git",
+        "commit": "97a5227a1a13f59dce4b896e40d411c13fbdb7b3"
+    },
+    "email": "74973071+Qyy2737242319@users.noreply.github.com",
+    "root": "F:/Program Files (x86)/yolo v5",
+    "host": "Yang-Qian",
+    "username": "ASUS",
+    "executable": "F:\\Program Files (x86)\\Python\\python.exe"
+}

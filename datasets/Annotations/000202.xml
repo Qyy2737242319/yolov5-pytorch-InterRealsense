@@ -1,0 +1,26 @@
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>000202.jpg</filename>
+	<path>F:\Program Files (x86)\YOLOv4-pytorch\VOCdevkit\VOC2007\JPEGImages\000202.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4032</width>
+		<height>3024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>arrow</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1552</xmin>
+			<ymin>613</ymin>
+			<xmax>2673</xmax>
+			<ymax>1920</ymax>
+		</bndbox>
+	</object>
+</annotation>

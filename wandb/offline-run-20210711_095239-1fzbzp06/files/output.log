@@ -1,0 +1,40 @@
+
+Analyzing anchors... anchors/target = 4.33, Best Possible Recall (BPR) = 0.9958
+Scanning 'data\labels' for images and labels... 299 found, 0 missing, 0 empty, 0 corrupted: 100%|█| 299/299 [00:04<00:00,
+New cache created: data\labels.cache
+Scanning 'data\labels' for images and labels... 12 found, 0 missing, 0 empty, 0 corrupted: 100%|█| 12/12 [00:00<00:00, 20
+New cache created: data\labels.cache                                                              | 0/12 [00:00<?, ?it/s]
+Scanning 'data\labels.cache' for images and labels... 299 found, 0 missing, 0 empty, 0 corrupted: 100%|█| 299/299 [00:00<
+Scanning 'data\labels.cache' for images and labels... 12 found, 0 missing, 0 empty, 0 corrupted: 100%|█| 12/12 [00:00<?,
+Image sizes 960 train, 960 test
+Using 0 dataloader workers
+Logging results to runs\train\exp
+Starting training for 300 epochs...
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+     0/299    0.902G    0.1223   0.02598   0.04846    0.1968         5       960:   0%| | 1/299 [00:19<1:38:25, 19.82s/it
+Traceback (most recent call last):
+  File "f:\Program Files (x86)\yolo v5\train.py", line 490, in <module>
+    train(hyp, opt, device, tb_writer, wandb)
+  File "f:\Program Files (x86)\yolo v5\train.py", line 287, in train
+    pred = model(imgs)  # forward
+  File "F:\Program Files (x86)\Python\lib\site-packages\torch\nn\modules\module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "f:\Program Files (x86)\yolo v5\models\yolo.py", line 121, in forward
+    return self.forward_once(x, profile)  # single-scale inference, train
+  File "f:\Program Files (x86)\yolo v5\models\yolo.py", line 137, in forward_once
+    x = m(x)  # run
+  File "F:\Program Files (x86)\Python\lib\site-packages\torch\nn\modules\module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "f:\Program Files (x86)\yolo v5\models\common.py", line 71, in forward
+    return self.cv4(self.act(self.bn(torch.cat((y1, y2), dim=1))))
+  File "F:\Program Files (x86)\Python\lib\site-packages\torch\nn\modules\module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "f:\Program Files (x86)\yolo v5\models\common.py", line 36, in forward
+    return self.act(self.bn(self.conv(x)))
+  File "F:\Program Files (x86)\Python\lib\site-packages\torch\nn\modules\module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "F:\Program Files (x86)\Python\lib\site-packages\torch\nn\modules\activation.py", line 438, in forward
+    return F.hardswish(input, self.inplace)
+  File "F:\Program Files (x86)\Python\lib\site-packages\torch\nn\functional.py", line 1819, in hardswish
+    return torch._C._nn.hardswish_(input)
+RuntimeError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 2.00 GiB total capacity; 1.09 GiB already allocated; 898.80 KiB free; 1.10 GiB reserved in total by PyTorch)

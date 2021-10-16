@@ -1,0 +1,7 @@
+(base) xugaoxiang@1070Ti:~/Works/github/mask$ cat data.yaml
+train: Mask Wearing.v1-416x416-black-padding.yolov5pytorch_2/train/images
+val: Mask Wearing.v1-416x416-black-padding.yolov5pytorch_2/valid/images
+test: Mask Wearing.v1-416x416-black-padding.yolov5pytorch_2/test/images
+
+nc: 2
+names: ['mask', 'no-mask']

@@ -1,0 +1,38 @@
+<annotation>
+	<folder>zhaopian</folder>
+	<filename>1 (43).jpg</filename>
+	<path>C:\Users\ASUS\Desktop\zhaopian\1 (43).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4000</width>
+		<height>3000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>arrow</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1327</xmin>
+			<ymin>1731</ymin>
+			<xmax>2940</xmax>
+			<ymax>2051</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>arrowFront</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1321</xmin>
+			<ymin>1726</ymin>
+			<xmax>1531</xmax>
+			<ymax>1863</ymax>
+		</bndbox>
+	</object>
+</annotation>
